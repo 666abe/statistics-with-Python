@@ -1,6 +1,6 @@
 ##### calculation of standard devoation #### #
 
-
+###偏差
 data = [6, 4, 6, 6, 6, 3, 7, 2, 2, 8]
 
 deviation = []
@@ -26,7 +26,7 @@ for i in data:
 
 print(deviation)
 
-    
+###分散    
 for i in deviation:
     m = i**2
     deviation2.append(m)
@@ -41,6 +41,7 @@ d = v/k
 
 print(d)
 
+###標準偏差
 sd = d**1/2
 
 print(sd)
